@@ -37,6 +37,8 @@ Route::group(['prefix' => 'member', 'middleware' => ['auth', 'auth.member']], fu
     Route::get('/lession-1/how-you-sound',         'Member\Lession1Controller@howYouSound')->name('member_lession_1_how_you_sound');
     Route::get('/lession-1/feedback',              'Member\Lession1Controller@feedback')->name('member_lession_1_feedback');
     Route::get('/lession-1/review',                'Member\Lession1Controller@review')->name('member_lession_1_review');
+    Route::get('/lession-1/review-listening',      'Member\Lession1Controller@reviewListening')->name('member_lession_1_review_listening');
+    Route::get('/lession-1/review-answer-question','Member\Lession1Controller@reviewAnswerQuestion')->name('member_lession_1_review_answer');
 });
 Route::group(['prefix' => 'guest', 'middleware' => ['auth', 'auth.guest']], function () {
     Route::get('/', 'Guest\HomeController@index')->name('guest_dashboard');

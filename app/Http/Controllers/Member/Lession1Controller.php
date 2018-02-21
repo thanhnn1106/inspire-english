@@ -143,9 +143,40 @@ class Lession1Controller extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function review()
+    {
+        return view('member.review');
+    }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function reviewListening()
+    {
+        return view('member.review_listening');
+    }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function reviewAnswerQuestion()
+    {
+        return view('member.review_answer');
+    }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function feedback()
     {
 
         return view('member.feedback');
     }
+
 }
