@@ -36,9 +36,11 @@ Route::group(['prefix' => 'member', 'middleware' => ['auth', 'auth.member']], fu
     Route::get('/lession-1/question',              'Member\Lession1Controller@question')->name('member_lession_1_question');
     Route::get('/lession-1/how-you-sound',         'Member\Lession1Controller@howYouSound')->name('member_lession_1_how_you_sound');
     Route::get('/lession-1/feedback',              'Member\Lession1Controller@feedback')->name('member_lession_1_feedback');
-    Route::get('/lession-1/review',                'Member\Lession1Controller@review')->name('member_lession_1_review');
-    Route::get('/lession-1/review-listening',      'Member\Lession1Controller@reviewListening')->name('member_lession_1_review_listening');
-    Route::get('/lession-1/review-answer-question','Member\Lession1Controller@reviewAnswerQuestion')->name('member_lession_1_review_answer');
+    Route::get('/lession-1/review-1-1',            'Member\Lession1Controller@review11')->name('member_lession_1_review11');
+    Route::get('/lession-1/review-1-7',            'Member\Lession1Controller@review17')->name('member_lession_1_review17');
+    Route::get('/lession-1/review-1-1-3',          'Member\Lession1Controller@review113')->name('member_lession_1_review113');
+    Route::get('/lession-1/review-1-8',            'Member\Lession1Controller@review18')->name('member_lession_1_review18');
+    Route::get('/lession-1/review-1-1-2',          'Member\Lession1Controller@review112')->name('member_lession_1_review112');
 });
 Route::group(['prefix' => 'guest', 'middleware' => ['auth', 'auth.guest']], function () {
     Route::get('/', 'Guest\HomeController@index')->name('guest_dashboard');

@@ -6,7 +6,7 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h1>Review</h1><a href="{{ route('member_lession_1_review_answer') }}" class="btn btn-success">Next</a>
+                    <h1>Review</h1><a href="{{ route('member_lession_1_review113') }}" class="btn btn-success">Next</a>
                 </div>
                 <div class="panel-body">
                     <div class="row">

@@ -143,9 +143,9 @@ class Lession1Controller extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function review()
+    public function review11()
     {
-        return view('member.review');
+        return view('member.review_1_1');
     }
 
     /**
@@ -153,9 +153,9 @@ class Lession1Controller extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function reviewListening()
+    public function review17()
     {
-        return view('member.review_listening');
+        return view('member.review_1_7');
     }
 
     /**
@@ -163,9 +163,29 @@ class Lession1Controller extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function reviewAnswerQuestion()
+    public function review113()
     {
-        return view('member.review_answer');
+        return view('member.review_1_13');
+    }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function review18()
+    {
+        return view('member.review_1_8');
+    }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function review112()
+    {
+        return view('member.review_1_12');
     }
 
     /**

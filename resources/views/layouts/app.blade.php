@@ -29,7 +29,7 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
+                    <a class="navbar-brand" href="{{ route('member_dashboard') }}">
                         #Inspire English
                     </a>
                     @if (Auth::check())
@@ -53,7 +53,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="{{ route('member_lession_1_review') }}" role="button" aria-expanded="false">
+                            <a href="{{ route('member_lession_1_review11') }}" class="dropdown-toggle" role="button" aria-expanded="false">
                                 Reviews
                             </a>
                         </li>
