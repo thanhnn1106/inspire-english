@@ -143,6 +143,16 @@ class Lession1Controller extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function review10()
+    {
+        return view('member.review_1_0');
+    }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function review11()
     {
         return view('member.review_1_1');

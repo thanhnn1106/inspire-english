@@ -53,7 +53,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="{{ route('member_lession_1_review11') }}" class="dropdown-toggle" role="button" aria-expanded="false">
+                            <a href="{{ route('member_lession_1_review10') }}" class="dropdown-toggle" role="button" aria-expanded="false">
                                 Reviews
                             </a>
                         </li>
